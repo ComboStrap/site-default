@@ -13,7 +13,7 @@
 !conf/
 ## Ignore all except the local files and tpl directory
 !conf/local.php
-!conf/*.local.php
+!conf/*.local.*
 ## template style.ini - https://www.dokuwiki.org/devel:style.ini#local_styleini
 !conf/tpl/
 !conf/tpl/**

@@ -1,21 +1,45 @@
-====== Welcome ! =====
+<bar hero="lg">
+    <grid>
+            <box>
+               <box>
+                 <heading d4 spacing="mb-3">Welcome!</heading>
+                 {{ :combostrap:icons:mdi:vector-combine.svg?75 |}}
+               </box>
+            </box>
+            <box>
+               <box>
+<heading d4 spacing="mb-3">Getting Started</heading>
+<text width="500">
+If you are new, you should check:
+  * [[wiki:welcome|the Dokuwiki Welcome page]] to understand how to write pages and configure a DokuWiki Installation
+  * and the [[combo>howto/how-to-get-started-with-combostrap-m3i8vga8|Combostrap Getting Started guide]]
+</text>
+               </box>
+            </box>
+</grid>
+</bar>
 
-
-
-===== Change the admin password =====
-
+<bar hero="lg">
+    <grid>
+            <box>
+               <box>
+<heading d4 spacing="mb-3">Configuration</heading>
+<icon name="bi:gear" width=50/>
+               </box>
+            </box>
+            <box>
+               <box>
+<heading d4 spacing="mb-3">Change the admin password</heading>
+<text>
 This installation has been configured with:
   * a public wiki as initial [[doku>ACL]] policy (public for reading, closed for writing).
   * and the admin user
     * username: ''admin''
     * password: ''admin''
 
-
 If this wiki is not local, you should at minima change the password in the [[?do=admin&page=usermanager|User Manager]].
-
-
-===== Getting Started =====
-
-If you are new, you should check:
-  * [[wiki:welcome|the Dokuwiki Welcome page]] to understand how to write pages and configure a DokuWiki Installation
-  * and the [[https://combostrap.com/howto/how-to-get-started-with-combostrap-m3i8vga8|Combostrap Getting Started guide]]
+</text>
+               </box>
+            </box>
+</grid>
+</bar>
