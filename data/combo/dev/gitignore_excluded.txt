@@ -1,0 +1,2 @@
+data/meta
+lib/images/interwiki/amazon.de.svg

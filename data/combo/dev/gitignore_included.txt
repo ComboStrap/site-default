@@ -1,0 +1,11 @@
+.gitignore
+.gitattributes
+doc/readme.txt
+conf/local.php
+conf/plugins.local.php
+conf/tpl/dokuwiki/style.ini
+data/pages/start.txt
+data/pages/ns1/start.txt
+data/combo/file
+data/combo/theme/file
+lib/images/interwiki/my.svg
