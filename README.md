@@ -12,8 +12,6 @@ that is installed by [ComboStrap DokuWiki Docker](https://combostrap.com/admin/d
 On your desktop:
 
 ```bash
-git clone 
-cd site-default
 docker run \
   --name combo-site-default \
   --rm \
