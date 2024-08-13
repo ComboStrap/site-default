@@ -12,6 +12,9 @@ docker run \
   --rm \
   -p 8081:80 \
   -e DOKU_DOCKER_ENV=dev \
+  -e DOKU_DOCKER_ACL_POLICY='public' \
+  -e DOKU_DOCKER_ADMIN_NAME='admin' \
+  -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
   -v $PWD:/var/www/html \
   ghcr.io/combostrap/dokuwiki:php8.3-v1
 ```
