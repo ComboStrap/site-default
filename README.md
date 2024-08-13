@@ -19,7 +19,7 @@ docker run \
   --name combo-site-default \
   --rm \
   -p 8081:80 \
-  -e DOKU_DOCKER_GIT='https://github.com/ComboStrap/site-default' \
+  -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-default' \
   ghcr.io/combostrap/dokuwiki:php8.3-v1
 ```
 
@@ -39,7 +39,7 @@ docker run \
   -e DOKU_DOCKER_ACL_POLICY='public' \
   -e DOKU_DOCKER_ADMIN_NAME='admin' \
   -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
-  -e DOKU_DOCKER_GIT='https://github.com/ComboStrap/site-default' \
+  -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-default' \
   ghcr.io/combostrap/dokuwiki:php8.3-v1
 ```
 
