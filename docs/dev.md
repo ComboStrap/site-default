@@ -11,6 +11,7 @@ docker run \
   --name combo-site-default \
   --rm \
   -p 8081:80 \
+  --user 1000:1000 \
   -e DOKU_DOCKER_ENV=dev \
   -e DOKU_DOCKER_ACL_POLICY='public' \
   -e DOKU_DOCKER_ADMIN_NAME='admin' \
