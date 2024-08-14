@@ -40,7 +40,7 @@ docker run \
   -e DOKU_DOCKER_ADMIN_NAME='admin' \
   -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
   -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-default' \
-  ghcr.io/combostrap/dokuwiki:php8.3-v1
+  ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
 
 

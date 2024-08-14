@@ -17,6 +17,6 @@ docker run \
   -e DOKU_DOCKER_ADMIN_NAME='admin' \
   -e DOKU_DOCKER_ADMIN_PASSWORD='welcome' \
   -v $PWD:/var/www/html \
-  ghcr.io/combostrap/dokuwiki:php8.3-v1
+  ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
 The default ComboStrap site should be available at: http://localhost:8081 
