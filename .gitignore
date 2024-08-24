@@ -3,6 +3,10 @@
 # Don't ignore the following files
 !.gitignore
 !.gitattributes
+# Ads file
+!ads.txt
+# Robots file
+!robots.txt
 !README.md
 # Don't ignore the doc/docs directories
 !doc/
