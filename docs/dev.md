@@ -5,10 +5,10 @@
 
 On your desktop:
 ```bash
-git clone https://github.com/ComboStrap/site-default
-cd site-default
+git clone https://github.com/ComboStrap/site-starter
+cd site-starter
 docker run \
-  --name combo-site-default \
+  --name combo-site-starter \
   --rm \
   -p 8081:80 \
   --user 1000:1000 \

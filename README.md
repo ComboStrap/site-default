@@ -1,4 +1,4 @@
-# ComboStrap Default Installation WebSite
+# ComboStrap Starter WebSite
 
 
 ## About
@@ -16,11 +16,11 @@ To get this website:
 run:
 ```bash
 docker run \
-  --name combo-site-default \
+  --name combo-site-starter \
   --rm \
   -p 8081:80 \
   -e DOKU_DOCKER_GIT_SITE='https://github.com/ComboStrap/site-starter' \
-  ghcr.io/combostrap/dokuwiki:php8.3-v1
+  ghcr.io/combostrap/dokuwiki:php8.3-latest
 ```
 
 
