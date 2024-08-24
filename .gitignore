@@ -3,6 +3,10 @@
 # Don't ignore the following files
 !.gitignore
 !.gitattributes
+# Don't ignore the .github repo for automatic deployment
+# Example: https://github.com/ComboStrap/site-com-combostrap/blob/master/.github/workflows/deploy.yml
+!.github
+!.github/**
 # Ads file
 !ads.txt
 # Robots file
